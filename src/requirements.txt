@@ -1,0 +1,3 @@
+##### Needed dependencies for use Secure File Transfer Manager #####
+paramiko ~= 2.7.2
+environment ~= 1.0.0
