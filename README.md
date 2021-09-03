@@ -1,6 +1,8 @@
 # Secure file transfer suite
 Small python script for automatic uploading or downloading files over sftp using a control file.
 
+##Installation
+> pip install -r requirements.txt
 ##Usage
 After setting two environment variables 
 
