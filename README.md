@@ -25,11 +25,11 @@ Each line starts with a command followed by its parameters
 
 command| description | parameter
 ----|----|----
-OPEN|opens the connection to the sftp server | serveraddress (same as in the credential file) and port
-DOWN| downloads a file from the server to a local file | absolute path of the sourcefile , absolute path to the local file to save
-UP| uploads a local file to the remote server | absolute path of the sourcefile , absolute path to the local file to save
-DIR/ execute dir command of the given path | path to folder to show
-CLOSE| close the connection
+OPEN |opens the connection to the sftp server | serveraddress (same as in the credential file) and port
+DOWN | downloads a file from the server to a local file | absolute path of the sourcefile , absolute path to the local file to save
+UP | uploads a local file to the remote server | absolute path of the sourcefile , absolute path to the local file to save
+DIR | execute dir command of the given path | path to folder to show
+CLOSE | close the connection
 
 Example:
 > OPEN;LOCALHOST;22
