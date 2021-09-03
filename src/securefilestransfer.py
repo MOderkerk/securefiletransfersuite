@@ -167,6 +167,8 @@ def execute_control_file_commands(controllines):
             upload_file(splitted_line[1], splitted_line[2], sftp)
         if command == 'DIR':
             print_dir(splitted_line[1], sftp)
+        if command == ' ':
+            log_console("INFO", "ignoring blank line in control file")
 
 
 if __name__ == "__main__":
